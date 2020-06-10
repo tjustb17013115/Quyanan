@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(image/bg.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.background .box{
+    height: 70px;
+
+} 
+.background .box .logo{
+    float: left;
+    height: 45px;
+    width: 165px;
+    margin-left: 225px;
+    padding-top: 15px;
+}
+li{
+    list-style: none;
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+.background .box .nav{
+    margin-left: 78px;
+    float: left;
+}
+.background .box .nav a{
+    display: inline-block;
+    padding: 23px  20px;
+    font-size: 18px;
+    font-family: 幼圆;
+    font-weight: 700;
+    color: rgb(174, 205, 248);
+}
+.background .box .nav a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom:  1px solid rgb(255, 255, 255);
+}
+.background .box .name{
+    float: left;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 15px;
+    height: 45px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.background .box .name:hover{
+    box-shadow: 1px 1px 1px 2px rgb(242, 242, 242);
+}
+.background .box .name .group{
+    padding-top: 10px;
+    color: rgb(44, 139, 255);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 幼圆;
+
+}
