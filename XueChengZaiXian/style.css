@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #f3f5f7;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;    
+}
+/* head部分 */
+.head{
+    height: 42px;
+    margin: 30px auto;
+}
+.logo{
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+li{
+    list-style: none;
+    margin: 0 15px;
+}
+.nav{    
+    float: left;
+    margin-left: 60px;
+}    
+.nav ul li {
+    float: left;
+}
+a{
+    display: block;
+    text-decoration: none; 
+}
+.nav ul li a{
+    display: inline-block;
+    height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #050505;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+.search{
+    float: left;
+    margin-left: 50px;
+    height: 42px;
+    width: 412px;
+    border-color: #00a4ff;
+}
+.search input{
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: none;
+    font-size: 14px;
+    color: #bfbfbf;
+    padding-left: 15px;
+}
+.search button{
+    float: right;
+    height: 42px;
+    width: 50px;
+    border: 0;
+}
+.user{
+    float: right;
+line-height: 42px;
+margin-right: 30px;
+}
+/* banner部分 */
+.background{
+    height: 420px;
+    background-color: #1c036c;
+}
+.background .smallbox{
+    background-image: url(image/banner.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 1202px;
+}
+.background  .smallbox .left{
+    float: left;
+    height: 420px;
+    width: 193px;
+    background-color: rgba(0, 0, 0, .3);
+}
+.background .smallbox .left li{
+    /* margin-top: 28px; */
+    /* margin-left: 22px; */
+    height: 45px;
+    line-height: 45px;
+    /* padding: 0 20px; */
+}
+.background .smallbox .left li a{
+    color: #ffffff;
+}
+.background .smallbox .left li a:hover{
+    color: #00b4ff;
+}
+.background .smallbox .left li a span{
+float: right;
+}
+.background .smallbox .right{
+    float: right;
+    margin-top: 50px;
+    width: 230px;
+    height: 300px;
+    background-color: #ffffff;
+}
+.background .smallbox .right .top{
+    width: 230px;
+    height: 50px;
+    background-color: #9bceea;
+}
+.background .smallbox .right .top p{
+    text-align: center;
+    padding: 13px;    
+    font-size: 20px;
+    font-family: 幼圆;
+}
+.background .smallbox .right .middle li a{
+    border-bottom:1px solid #eaeaea;
+    height: 60px;
+    line-height: 30px;
+    font-size: 16px;
+    color: black;
+}
+.background .smallbox .right .middle li a div{
+    font-size: 14px;
+    color: darkgrey;
+}
+
+.background .smallbox .end{
+    width: 200px;
+    height: 40px;
+    margin: 6px 14px 0;
+    border: 2px solid #7dc5ff;
+}
+.background .smallbox .end a{
+    color: #7dc5ff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 9px;
+}
+/* 精品推荐导航栏部分 */
+.good{
+    height: 70px;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, .1);
+    margin-top: 10px;
+}
+.good h3{
+    float: left;
+    margin-left: 35px;
+    padding: 23px 0;
+    color: rgb(0, 164, 255);
+    font-size: 18px;
+}
+.Recommend ul li{
+    float: left;
+    /* margin-left: 33px; */
+    padding: 23px 0;
+}
+em{
+    font-style: normal;
+}
+.Recommend ul li em{
+    padding: 0 15px;
+    color: #bfbfbf;
+
+}
+
+.Recommend ul li a{
+    display: inline;
+    font-size: 18px;
+    color: black;
+}
+.good .Remove{
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+    padding: 20px 0;
+    width: 80px;
+    height: 30px;
+
+}
+
+.good .Remove a{
+    display: inline;
+ font-size: 18px;
+    color: rgb(0, 164, 255);
+}
+/* 精品推荐头部部分 */
+.goods{
+    height: 40px;
+    margin-top: 35px;
+}
+.goods h3{
+    float: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+.goods a{
+    float: right;
+    font-size: 14px;
+    margin-right: 35px;
+    padding-top: 7px;
+    color: #a5a5a5;
+}
+/* 精品推荐身体部分 */
